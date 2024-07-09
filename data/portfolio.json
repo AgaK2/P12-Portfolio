@@ -1,0 +1,56 @@
+[
+    {
+        "image": "booki-room.webp",
+        "title": "Booki",
+        "text": "Dans ce projet, j'ai créé une page d'accueil pour une agence de voyages en utilisant <b>HTML</b> et <b>CSS</b>. J'ai développé des compétences essentielles en <b>design responsive</b>, assurant que la page d'accueil fonctionne bien sur tous les appareils et tailles d'écran.",
+        "link": "https://github.com/AgaK2/P3-Booki",
+        "imageLink": "github-link.webp",
+        "alt": "Projet Booki",
+        "altLien": "lien vers GitHub (projet Booki)"
+    },
+    {
+        "image": "print-it.webp",
+        "title": "Print-it",
+        "text": "Ma tâche consistait à mettre à jour le code HTML existant et à ajouter un carrousel en <b>JavaScript</b> pour rendre le site plus dynamique et engageant en intégrant des fonctionnalités interactives.",
+        "link": "https://github.com/AgaK2/P6-Print-it",
+        "imageLink": "github-link.webp",
+        "alt": "Projet Print it",
+        "altLien": "lien vers GitHub (projet Print it)"
+    },
+    {
+        "image": "sophie-bluel.webp",
+        "title": "Sophie Bluel",
+        "text": "Ce projet consistait à créer un site web dynamique  pour le site internet d'une architecte d'intérieur en utilisant <b>JavaScript</b> et en communiquant avec une <b>API</b>. J'ai manipulé des éléments du <b>DOM</b> avec <b>JavaScript</b>. J'ai crée une page de connexion pour l'administrateur du site ainsi qu'une <b>modale</b> permettant d'uploader de nouveaux médias.  ",
+        "link": "https://github.com/AgaK2/P7-Sophie-Bluel",
+        "imageLink": "github-link.webp",
+        "alt": "Projet Sophie Bluel",
+        "altLien": "lien vers GitHub (projet Sophie Bluel)"
+    },
+    {
+        "image": "kasa.webp",
+        "title": "Kasa",
+        "text": "Dans ce projet, j'ai implémenté le front-end d’une application de location de logement. J'ai utilisé <b>React</b> pour créer des composants et <b>React Router</b> pour la navigation entre les pages de l'application. Pour initialiser l'application, j'ai utilisé <b>Create React App</b>.",
+        "link": "https://github.com/AgaK2/P8-Kasa",
+        "imageLink": "github-link.webp",
+        "alt": "Projet Kasa",
+        "altLien": "lien vers GitHub (projet Kasa)"
+    },
+    {
+        "image": "eco-bliss-bath.webp",
+        "title": "Eco Bliss Bath",
+        "text": "Le but de ce projet était d'automatiser les tests fonctionnels du site web d'une start-up de produits écoresponsables. J'ai rédigé des scripts d'automatisation en JavaScript en utilisant l'outil <b>Cypress</b>. À la fin des tests, j'ai créé un <b>rapport</b> détaillé sur les résultats des tests automatisés, qui contenait des informations sur les <b>anomalies détectées</b>.",
+        "link": "https://github.com/AgaK2/P10-Eco-Bliss-Bath",
+        "imageLink": "github-link.webp",
+        "alt": "Projet Eco Bliss Bath",
+        "altLien": "lien vers GitHub (projet Eco Bliss Bath)"
+    },
+    {
+        "image": "tomsen.webp",
+        "title": "Tomsen",
+        "text": "Le but de ce projet était de définir une <b>stratégie de test</b> pour l'application de gestion financière avant sa mise en production. Le projet consistait en l'analyse des <b>spécifications fonctionnelles</b> de l'application, la définition d'une stratégie de test, la planification des tests en fonction des <b>sprints</b> en utilisant une approche <b>Agile</b> et la rédaction d'un <b>cahier de recette</b>.",
+        "link": "./files/tomsen-strategie-test.pdf",
+        "imageLink": "link-extern.webp",
+        "alt": "Projet Tomsen",
+        "altLien": "lien vers la stratégie de test (projet Tomsen) - fichier PDF"
+    }
+]

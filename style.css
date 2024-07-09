@@ -1,0 +1,315 @@
+/******* GENERAL *******/
+/* spacing on all sections */
+#about,
+#skills,
+#portfolio,
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#about h2,
+#skills h2,
+#portfolio h2,
+#contact h2 {
+    margin-bottom: 3rem;
+    font-family: 'Poppins';
+    font-size: 42px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(60deg, #000, #ffd300, #a06929, #ffd300, #000);
+}
+
+#contact,
+#skills {
+    background-color: rgb(249, 250, 252);
+    padding: 90px;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+/* display background dark color on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: rgba(19, 18, 19, 0.45);
+}
+
+.fixed-top {
+    background-color: #443f4d46;
+}
+
+.navbar-dark {
+    color: #fff;
+}
+
+.navbar li {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(60deg, #000, #ffd300, #a06929, #ffd300, #000);
+}
+
+#navbarSupportedContent {
+    font-family: 'Poppins';
+    color: #ffff;
+    margin-right: 20px;
+}
+
+.nav-link {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+}
+
+
+/* background image */
+.bgimage {
+    height: 100vh;
+    max-height: 900px;
+    background: url("images/bgd-note1.webp");
+    background-size: cover;
+    position: relative;
+}
+
+/* text css above A propos*/
+.hero_title {
+    font-size: 2.5rem;
+    color: darkgray;
+}
+
+.hero_desc {
+    font-size: 6.5rem;
+    margin-top: none;
+    animation: moveDown 0.3s 2 alternate;
+}
+
+@keyframes moveDown {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(30px);
+    }
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-family: 'La Belle Aurore';
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(60deg, #000, #ffd300, #a06929, #ffd300, #000);
+}
+
+.hero_quote {
+    font-size: 20px;
+}
+
+/* A propos */
+
+#about {
+    padding-bottom: 60px;
+}
+
+.imageAboutPage {
+    background-color: rgb(249, 250, 252);
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.col-lg-8 p {
+    color: #6c6868;
+    font-family: 'Poppins';
+}
+
+
+/* Skills */
+.skillsText.card {
+    height: auto;
+}
+
+.card.skillsText:hover {
+    border: 0;
+}
+
+.skillsText img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+
+#skills p {
+    text-align: center;
+}
+
+.rows {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    height: 275px;
+    width: 100%;
+    background-color: rgb(249, 250, 252);
+}
+
+.card-body-skill {
+    width: 200px;
+    padding: 2rem 3.5rem;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .skillsIcon {
+    color: #008000;
+}
+
+.skillsText:hover {
+    border: 1px solid #008000;
+}
+
+/* Projets */
+#portfolio p {
+    text-align: left;
+}
+
+.col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolioContent {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.overlay-title {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(128, 125, 125, 0.29);
+    color: white;
+    text-align: center;
+    padding: 4px;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    gap: 15px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: -218px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(19, 18, 19, 0.45);
+    color: white;
+    text-align: center;
+    padding: 5px 5px 5px 8px;
+    transition: bottom 0.5s;
+}
+
+.btn_link {
+    height: 40px;
+    transition: transform 0.25s;
+}
+
+.btn_link:hover {
+    transform: scale(1.15);
+}
+
+.portfolioContent:hover .overlay {
+    bottom: 0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Contact */
+.contactColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactColumn i {
+    color: goldenrod;
+}
+
+.text-center {
+    margin: auto;
+}
+
+.image-container:hover .overlay {
+    display: block;
+}
+
+
+@media (max-width: 1510.98px) {
+    .hero-text {
+        top: 50%;
+        left: 35%;
+    }
+}
+
+@media (max-width: 1084.98px) {
+    .hero-text {
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .overlay {
+        bottom: -280px;
+    }
+}
+
+@media (max-width: 657.98px) {
+    .hero_desc {
+        margin-top: 70px;
+    }
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "image": "html5.webp",
+        "alt": "HTML"
+    },
+    {
+        "image": "css3.webp",
+        "alt": "CSS"
+    },
+    {
+        "image": "js.webp",
+        "alt": "javascript"
+    },
+    {
+        "image": "react.webp",
+        "alt": "React"      
+    },
+    {
+        "image": "github.webp",
+        "alt": "Github"
+    },
+    {
+        "image": "notion.webp",
+        "alt": "Notion"
+    },
+    {
+        "image": "visual_studio_code.webp",
+        "alt": "Visual Studio Code"
+    },
+    {
+        "image": "swagger-bg.webp",
+        "alt": "Swagger API"
+    },
+    {
+        "image": "cypress.webp",
+        "alt": "Cypress-tests automatisés"
+    },
+    {
+        "image": "tests-bg.webp",
+        "alt": "Tests"
+    },
+    {
+        "image": "agile.webp",
+        "alt": "Méthode Agile"
+    },
+    {
+        "image": "jira_logo.webp",
+        "alt": "Jira"
+    }
+]
